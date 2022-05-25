@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Install packages
 sudo pacman -S - < pkglist.txt
