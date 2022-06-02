@@ -1,2 +1,3 @@
 fish
 wmname
+gnome-disk-utility
