@@ -28,6 +28,9 @@ nitrogen --restore &
 # Set display from arandr saved script
 sh ~/.screenlayout/monitor.sh &
 
+# Load Nvidia settings
+nvidia-settings --load-config-only
+
 # Cursor
 xsetroot -cursor_name left_ptr &
 
@@ -63,6 +66,7 @@ bspc config active_border_color         "#073642"
 # Rules
 #bspc rule -a firefox desktop='Browser' follow=on focus=on
 #bspc rule -a Microsoft-edge desktop='Browser' follow=on focus=on
+bspc rule -a Eddie desktop='IV' state=floating follow=on
 bspc rule -a Yad state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
