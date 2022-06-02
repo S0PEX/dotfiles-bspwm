@@ -1,6 +1,8 @@
 {
     "conventionalCommits.scopes": [
         "bspwm",
-        "polybar"
+        "polybar",
+        "scripts",
+        "vscode"
     ]
 }
