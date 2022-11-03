@@ -37,6 +37,9 @@ xsetroot -cursor_name left_ptr &
 # Fix java window reparenting issue (e.g clion, intellij)
 wmname LG3D
 
+# SSH Agent
+ssh-agent startx
+
 ###########
 # BSPWM
 ###########
@@ -45,8 +48,8 @@ wmname LG3D
 bspc rule -r "*"
 
 # Set monitors
-bspc monitor DP-4 -f -d I II III IV V
-bspc monitor DP-2 -d VI VII VIII IX X
+bspc monitor DP-2 -f -d I II III IV V
+bspc monitor DP-4 -d VI VII VIII IX X
 
 # Basic configuration
 bspc config border_width         2
